@@ -56,6 +56,8 @@ async function buscarPokemon(){
         
     // });
 
+
+    //Estadisticas nombre y número
     listaEstadisticas.innerHTML = "";
     infoPokemon.stats.forEach(a => {
     const item = document.createElement("li");
